@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* css generale */
+#container {
+  width: 70%;
+  height: 100vh;
+  margin: 10px auto;
+  padding: 10px;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.post {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* /css generale */
+
+/* css header */
+header {
+  height: 20%;
+}
+#image-bg {
+  height: 80%;
+  border: 7px solid #ffffff;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+#menu {
+  position: relative;
+  height: 20%;
+  background-color: #64676c;
+}
+#menu #menu-list {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+#menu-list > li {
+  width: calc(100% / 7);
+  height: 100%;
+  text-align: center;
+  list-style: none;
+  color: #ffffff;
+}
+#menu-list > li:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+/* /css header */
+
+/* css main */
+main {
+  height: 70%;
+  padding-top: 10px;
+}
+main .left,
+main .mid,
+main .right {
+  height: 100%;
+}
+main .left,
+main .right {
+  width: 15%;
+}
+main .mid {
+  width: 70%;
+}
+.left .post-left {
+  width: 100%;
+  height: 35%;
+}
+.mid .post-mid {
+  width: 80%;
+  height: 27%;
+  margin: auto;
+}
+.right .post-right {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 15px;
+}
+/* /css main */
+
+/* css footer */
+footer {
+  height: 10%;
+}
+#author {
+  position: relative;
+  height: 30%;
+  border-bottom: 1px solid lightgrey;
+}
+#author div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lightgrey;
+  font-style: italic;
+  font-size: 10px;
+}
+#contact {
+  height: 70%;
+}
+#contact .social {
+  position: relative;
+  width: calc(100% / 3);
+  height: 100%;
+}
+#contact .social i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: lightgrey;
+}
+#contact .social i:hover {
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
+}
+/* /css footer */
