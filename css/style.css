@@ -120,14 +120,17 @@ main .mid {
   margin: 0 0 10px 5px;
   text-align: center;
 }
-.post-left > ul {
+/* .post-left > ul {
   clear: left;
-}
-.post-left > ul li {
+} */
+.post-left ul li {
   margin-bottom: 10px;
-  color: #388c5e;
   font-weight: 700;
   list-style: none;
+  clear: left;
+}
+.post-left ul li a {
+  color: #388c5e;
 }
 .post-left > ul li a:hover {
   text-decoration: underline;
