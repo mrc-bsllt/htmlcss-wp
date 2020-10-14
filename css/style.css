@@ -24,6 +24,7 @@ body {
   float: left;
 }
 a {
+  color: #388c5e;
   text-decoration: none;
 }
 .post {
@@ -128,9 +129,6 @@ main .mid {
   font-weight: 700;
   list-style: none;
   clear: left;
-}
-.post-left ul li a {
-  color: #388c5e;
 }
 .post-left > ul li a:hover {
   text-decoration: underline;
