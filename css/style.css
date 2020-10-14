@@ -28,15 +28,27 @@ a {
   text-decoration: none;
 }
 .post {
+  margin-bottom: 40px;
   padding: 5px 10px;
   background-color: #ffffff;
   border-radius: 5px;
   line-height: 20px;
 }
+.post h3 {
+  font-size: 23px;
+  font-weight: 400;
+}
 .post p {
-  line-height: 25px;
+  margin-top: 50px;
+  line-height: 30px;
   letter-spacing: 2px;
   font-weight: bold;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* /css generale */
 
@@ -50,12 +62,6 @@ header .header-top {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.header-top .logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 .header-top .logo > img {
@@ -66,12 +72,10 @@ h1 {
   font-size: 22px;
   color: #ffffff;
   font-weight: 700;
-  text-transform: uppercase;
 }
 /* /header top */
 /* nav */
 #menu {
-  position: relative;
   text-align: center;
   height: 50px;
   line-height: 47px;
@@ -85,7 +89,6 @@ h1 {
 #menu .menu-list > li a {
   color: #ffffff;
   font-size: bold;
-  text-transform: uppercase;
 }
 .menu-list > li:hover {
   background-color: #76818d;
@@ -117,8 +120,6 @@ main .mid {
 .post-left h3 {
   margin: 0 0 10px 5px;
   text-align: center;
-  font-weight: 400;
-  font-size: 22px;
 }
 .post-left > ul {
   clear: left;
@@ -142,9 +143,6 @@ main .mid {
   margin: auto;
 }
 .mid .post-mid h3 {
-  margin-bottom: 50px;
-  font-size: 25px;
-  font-weight: 400;
   text-transform: uppercase;
   text-shadow: 3px 3px #b67222;
 }
@@ -152,13 +150,7 @@ main .mid {
 /* colonna destra */
 .right .post-right {
   width: 100%;
-  margin-bottom: 30px;
   padding: 20px;
-}
-.right .post-right h3 {
-  margin-bottom: 50px;
-  font-size: 25px;
-  font-weight: 400;
 }
 /* /colonna destra */
 /* /css main */
@@ -173,10 +165,6 @@ footer {
   border-bottom: 1px solid lightgrey;
 }
 #author div {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   padding: 2px 0;
   text-align: center;
   color: lightgrey;
@@ -191,16 +179,11 @@ footer {
   width: calc(100% / 3);
   height: 100%;
 }
-#contact .social i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#contact .social a {
   font-size: 40px;
   color: lightgrey;
 }
-#contact .social i:hover {
-  cursor: pointer;
+#contact .social a:hover {
   font-size: 50px;
 }
 #contact .social .fa-facebook-square:hover {
