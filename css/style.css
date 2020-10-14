@@ -13,7 +13,6 @@ body {
 /* css generale */
 #container {
   width: 60%;
-  height: 100vh;
   margin: 10px auto;
 }
 .clearfix::after {
@@ -160,8 +159,6 @@ footer {
   /* height: 10%; */
 }
 #author {
-  /* position: relative; */
-  /* height: 30%; */
   border-bottom: 1px solid lightgrey;
 }
 #author div {
