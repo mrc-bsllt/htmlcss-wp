@@ -162,24 +162,26 @@ main .mid {
 
 /* css footer */
 footer {
-  height: 10%;
+  /* height: 10%; */
 }
 #author {
-  position: relative;
-  height: 30%;
+  /* position: relative; */
+  /* height: 30%; */
   border-bottom: 1px solid lightgrey;
 }
 #author div {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  padding: 2px 0;
+  text-align: center;
   color: lightgrey;
   font-style: italic;
   font-size: 10px;
 }
 #contact {
-  height: 70%;
+  height: 100px;
 }
 #contact .social {
   position: relative;
@@ -196,7 +198,16 @@ footer {
 }
 #contact .social i:hover {
   cursor: pointer;
-  color: #000000;
   font-size: 50px;
 }
+#contact .social .fa-facebook-square:hover {
+  color: #1877F2;
+}
+#contact .social .fa-instagram:hover {
+  color: #F86B00;
+}
+#contact .social .fa-github:hover {
+  color: #000000;
+}
+
 /* /css footer */
