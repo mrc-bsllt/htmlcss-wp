@@ -34,7 +34,7 @@ a {
   line-height: 20px;
 }
 .post p {
-  line-height: 30px;
+  line-height: 25px;
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -141,7 +141,7 @@ main .mid {
 }
 .mid .post-mid h3 {
   margin-bottom: 50px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
   text-shadow: 3px 3px #b67222;
@@ -149,6 +149,12 @@ main .mid {
 .right .post-right {
   width: 100%;
   margin-bottom: 30px;
+  padding: 20px;
+}
+.right .post-right h3 {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 400;
 }
 /* /css main */
 
